@@ -22,18 +22,12 @@
 		  <Private>false</Private>
 		  <ExcludeAssets>runtime</ExcludeAssets>
 	  </ProjectReference>
-	  <ProjectReference Include="..\infopanel\InfoPanel.Plugins\InfoPanel.Plugins.csproj" Condition="'$(InfoPanelPluginsPath)' == ''">
-		  <Private>false</Private>
-		  <ExcludeAssets>runtime</ExcludeAssets>
-	  </ProjectReference>
 	  <ProjectReference Include="$(InfoPanelPluginsGraphicsPath)" Condition="'$(InfoPanelPluginsGraphicsPath)' != ''">
 		  <Private>false</Private>
 		  <ExcludeAssets>runtime</ExcludeAssets>
 	  </ProjectReference>
-	  <ProjectReference Include="..\infopanel\InfoPanel.Plugins.Graphics\InfoPanel.Plugins.Graphics.csproj" Condition="'$(InfoPanelPluginsGraphicsPath)' == ''">
-		  <Private>false</Private>
-		  <ExcludeAssets>runtime</ExcludeAssets>
-	  </ProjectReference>
+	  <ProjectReference Include="..\infopanel-1_org\InfoPanel.Plugins.Graphics\InfoPanel.Plugins.Graphics.csproj" />
+	  <ProjectReference Include="..\infopanel-1_org\InfoPanel.Plugins\InfoPanel.Plugins.csproj" />
   </ItemGroup>
 
   <ItemGroup>

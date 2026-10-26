@@ -6,3 +6,4 @@ obj/
 test_wavelink.ps1
 release-staging/
 repack-staging/
+*.bak

@@ -1,0 +1,14 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="../infopanel-1_org/InfoPanel.Plugins.Graphics/InfoPanel.Plugins.Graphics.csproj">
+    <Platform Project="x64" />
+  </Project>
+  <Project Path="../infopanel-1_org/InfoPanel.Plugins/InfoPanel.Plugins.csproj">
+    <Platform Project="x64" />
+  </Project>
+  <Project Path="InfoPanel.AudioSpectrum.csproj">
+    <Platform Project="x64" />
+  </Project>
+</Solution>
